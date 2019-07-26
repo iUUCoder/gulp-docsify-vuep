@@ -18,5 +18,9 @@
         "vuep"
     ],
     "author": "UUCoder",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "lodash.template": "^4.5.0",
+        "through2": "^3.0.1"
+    }
 }
