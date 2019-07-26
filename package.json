@@ -22,5 +22,9 @@
     "dependencies": {
         "lodash.template": "^4.5.0",
         "through2": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=8.16.0",
+        "npm": ">=6.4.1"
     }
 }
