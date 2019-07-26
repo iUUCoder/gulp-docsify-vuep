@@ -1,6 +1,7 @@
 const through = require('through2');
 const template = require('lodash.template');
 const fs = require('fs');
+const path = require('path');
 const crypto = require('crypto');
 
 /**
@@ -12,7 +13,7 @@ const crypto = require('crypto');
  */
 module.exports = function(config) {
     // 读取 Vuep 支持的 markdown 模板
-    const tpl = String(fs.readFileSync('./vuep.tpl'));
+    const tpl = String(fs.readFileSync(path.resolve(__dirname, './vuep.tpl')));
 
     return through.obj(function(file, encode, cb) {
         // 处理 Vuep 配置
