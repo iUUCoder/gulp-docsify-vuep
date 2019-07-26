@@ -1,0 +1,30 @@
+{
+    "name": "gulp-docsify-vuep",
+    "version": "0.1.1",
+    "description": "Convert Vue code to Markdown, make them can run with Vuep in the docsify.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iUUCoder/gulp-docsify-vuep"
+    },
+    "keywords": [
+        "gulp",
+        "gulp-plugin",
+        "nodejs",
+        "docsify",
+        "vuep"
+    ],
+    "author": "UUCoder",
+    "license": "MIT",
+    "dependencies": {
+        "lodash.template": "^4.5.0",
+        "through2": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=8.16.0",
+        "npm": ">=6.4.1"
+    }
+}
